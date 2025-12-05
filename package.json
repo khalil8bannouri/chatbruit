@@ -1,0 +1,12 @@
+{
+    "name": "frontend-deploy",
+    "version": "1.0.0",
+    "scripts": {
+        "build": "cd frontend && npm install && npm run build",
+        "start": "cd frontend && npm start"
+    },
+    "dependencies": {},
+    "engines": {
+        "node": "18.x"
+    }
+}
